@@ -1937,3 +1937,161 @@ button {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+/* =====================================================
+   NEW HONEY PEAK IMAGE SECTIONS
+===================================================== */
+
+.product-description p {
+  margin-bottom: 16px;
+}
+
+.product-description .highlight-line {
+  color: #b88c28;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-top: 22px;
+}
+
+
+/* FOUR IMAGE BENEFIT CARDS */
+
+.image-benefits {
+  background: #f4f6fa;
+}
+
+.image-benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 42px;
+}
+
+.image-benefit-card {
+  overflow: hidden;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid #e5e8ee;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.image-benefit-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 20px 45px rgba(8,13,29,.12);
+}
+
+.image-benefit-photo {
+  width: 100%;
+  height: 190px;
+  overflow: hidden;
+  background: #ddd;
+}
+
+.image-benefit-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .35s ease;
+}
+
+.image-benefit-card:hover .image-benefit-photo img {
+  transform: scale(1.05);
+}
+
+.image-benefit-content {
+  padding: 20px;
+}
+
+.image-benefit-content > span {
+  color: #c2962e;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.image-benefit-content h3 {
+  margin: 7px 0 8px;
+  color: #10172b;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+}
+
+.image-benefit-content p {
+  color: #747d8e;
+  font-size: 10px;
+  line-height: 1.65;
+}
+
+
+/* THREE IMAGE GALLERY */
+
+.passion-gallery {
+  background: #fff;
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.gallery-image {
+  height: 330px;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #ddd;
+}
+
+.gallery-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .4s ease;
+}
+
+.gallery-image:hover img {
+  transform: scale(1.04);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+
+  .image-benefit-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery-image {
+    height: 280px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .image-benefit-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .image-benefit-photo {
+    height: 230px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-image {
+    height: 300px;
+  }
+
+  .product-description p {
+    font-size: 13px;
+  }
+
+}
