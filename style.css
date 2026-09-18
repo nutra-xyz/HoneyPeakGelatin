@@ -1938,3 +1938,433 @@ button {
     transition-duration: 0.01ms !important;
   }
 }
+/* =====================================================
+   FINAL PREMIUM OVERRIDE
+   ===================================================== */
+
+body {
+  background: #fff;
+  color: #10172b;
+}
+
+/* HEADER */
+.site-header {
+  background: #080d1d;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.brand {
+  color: #fff;
+}
+
+.brand-sub {
+  color: #dcb54f;
+}
+
+/* HERO */
+.hero-section {
+  min-height: 610px;
+  background:
+    radial-gradient(circle at 72% 45%, rgba(218,177,67,.14), transparent 28%),
+    radial-gradient(circle at 95% 10%, rgba(255,255,255,.05), transparent 25%),
+    #080d1d;
+  color: #fff;
+}
+
+.hero-section::after {
+  background: rgba(218,177,67,.05);
+}
+
+.hero-glow {
+  background: rgba(218,177,67,.05);
+}
+
+.hero-grid {
+  grid-template-columns: 1.05fr .95fr;
+}
+
+.hero-content {
+  padding: 40px 0;
+}
+
+.hero-content .section-label {
+  color: #dcb54f;
+}
+
+.hero-content h1 {
+  color: #fff;
+  font-size: clamp(45px, 5vw, 70px);
+  line-height: .98;
+}
+
+.hero-content h1 span {
+  color: #dcb54f;
+}
+
+.hero-description {
+  color: rgba(255,255,255,.58);
+  max-width: 520px;
+}
+
+.hero-meta {
+  color: rgba(255,255,255,.42);
+}
+
+.text-link {
+  color: #fff;
+}
+
+.hero-product {
+  min-height: 520px;
+}
+
+.hero-product::before {
+  border-color: rgba(220,181,79,.22);
+  box-shadow:
+    0 0 0 35px rgba(220,181,79,.025),
+    0 0 0 75px rgba(220,181,79,.018);
+}
+
+.product-orbit {
+  border-color: rgba(255,255,255,.12);
+}
+
+.product-image {
+  width: min(480px, 100%);
+  filter: drop-shadow(0 35px 35px rgba(0,0,0,.5));
+}
+
+.product-badge {
+  background: #dcb54f;
+}
+
+/* GOLD BUTTON */
+.button-gold,
+.nav-button {
+  background: #dcb54f;
+  color: #080d1d;
+}
+
+.button-gold:hover,
+.nav-button:hover {
+  background: #f0d47d;
+}
+
+/* FEATURE BAR */
+.feature-bar {
+  background: #111a2f;
+}
+
+.feature-item {
+  border-color: rgba(255,255,255,.08);
+}
+
+/* INTRO */
+.about-section {
+  padding: 85px 0;
+  background: #fff;
+}
+
+.intro-content h2 {
+  color: #10172b;
+}
+
+.intro-content h2 span {
+  color: #d29f2f;
+}
+
+/* LIGHT GREY SECTION */
+.light-section {
+  background: #f4f6fa;
+  padding: 85px 0;
+}
+
+.column-heading h2 {
+  color: #10172b;
+}
+
+.benefit-row {
+  background: #fff;
+  border-color: #e5e8ef;
+}
+
+.benefit-index {
+  background: #faf1d9;
+  color: #b88920;
+}
+
+/* PRODUCT SHOWCASE */
+.product-showcase {
+  padding: 90px 0;
+  background: #fff;
+}
+
+.showcase-circle {
+  background:
+    radial-gradient(
+      circle,
+      rgba(220,181,79,.12),
+      rgba(220,181,79,.02) 60%,
+      transparent 70%
+    );
+}
+
+.showcase-content h2 {
+  color: #10172b;
+}
+
+.showcase-content h2 span {
+  color: #d29f2f;
+}
+
+/* PERFORMANCE */
+.performance-section {
+  background: #f4f6fa;
+}
+
+.performance-card {
+  background: #fff;
+  border-color: #e4e7ed;
+}
+
+.card-icon {
+  background: #faf1d9;
+  color: #b88920;
+}
+
+/* DARK ROUTINE */
+.dark-routine {
+  background:
+    radial-gradient(
+      circle at 70% 50%,
+      rgba(220,181,79,.12),
+      transparent 30%
+    ),
+    #080d1d;
+}
+
+.routine-content h2 {
+  color: #fff;
+}
+
+.routine-content h2 span {
+  color: #dcb54f;
+}
+
+.routine-list-item > span {
+  color: #dcb54f;
+}
+
+.routine-product-circle {
+  border-color: rgba(220,181,79,.2);
+}
+
+/* INSIDE */
+.inside-section {
+  background: #f4f6fa;
+}
+
+.verified-box {
+  background: #fff;
+}
+
+/* STEPS */
+.steps-section {
+  background: #fff;
+}
+
+.step-card {
+  background: #f5f7fa;
+}
+
+.step-card > span {
+  color: #d29f2f;
+}
+
+/* CTA */
+.middle-cta {
+  background: #fff;
+}
+
+.cta-box {
+  background:
+    radial-gradient(
+      circle at 90% 10%,
+      rgba(220,181,79,.12),
+      transparent 30%
+    ),
+    #080d1d;
+}
+
+.cta-box h2 span {
+  color: #dcb54f;
+}
+
+/* EXPERIENCE */
+.experience-section {
+  background: #f4f6fa;
+}
+
+.experience-card {
+  background: #fff;
+}
+
+.experience-icon {
+  background: #080d1d;
+  color: #dcb54f;
+}
+
+/* FAQ */
+.faq-section {
+  background: #fff;
+}
+
+.faq-intro h2 span {
+  color: #d29f2f;
+}
+
+.faq-question span {
+  color: #d29f2f;
+}
+
+/* FINAL CTA */
+.final-cta {
+  background:
+    radial-gradient(
+      circle at 25% 40%,
+      rgba(220,181,79,.13),
+      transparent 28%
+    ),
+    #080d1d;
+}
+
+.final-cta h2 span {
+  color: #dcb54f;
+}
+
+.final-product::before {
+  background:
+    radial-gradient(
+      circle,
+      rgba(220,181,79,.10),
+      transparent 65%
+    );
+}
+
+/* FOOTER */
+.site-footer {
+  background: #050914;
+}
+
+.footer-column h4 {
+  color: #dcb54f;
+}
+
+/* =====================================================
+   DESKTOP SPACING — SECOND SCREENSHOT STYLE
+   ===================================================== */
+
+@media (min-width: 1000px) {
+
+  .hero-section {
+    min-height: 620px;
+  }
+
+  .about-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .light-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .product-showcase {
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+
+  .performance-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .dark-routine {
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+
+  .inside-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .steps-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .experience-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .faq-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
+
+/* =====================================================
+   MOBILE DARK HERO
+   ===================================================== */
+
+@media (max-width: 700px) {
+
+  .hero-section {
+    min-height: auto;
+    padding: 55px 0 35px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content {
+    text-align: left;
+  }
+
+  .hero-content .section-label {
+    justify-content: flex-start;
+  }
+
+  .hero-content h1 {
+    font-size: 44px;
+  }
+
+  .hero-product {
+    min-height: 350px;
+  }
+
+  .product-image {
+    width: 330px;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-section,
+  .light-section,
+  .product-showcase,
+  .performance-section,
+  .dark-routine,
+  .inside-section,
+  .steps-section,
+  .experience-section,
+  .faq-section {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+}
